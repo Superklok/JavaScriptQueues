@@ -108,3 +108,27 @@ All the calls to `pop` and `peek` are valid.
 `};`
 <br/>
 <br/>
+
+## Explanation:
+
+I've built a class called `MyQueue` that represents a queue data structure. The class has several methods: `push`, `pop`, `peek`, and `empty`.
+<br/>
+
+The constructor initializes the `data` array, which will be used to store the elements of the queue.
+<br/>
+
+The `push` method takes a parameter `x` and adds the element to the end of the `data` array using the `push` function.
+<br/>
+
+The `pop` method removes and returns the first element of the queue. It assigns the first element to a temporary variable called `temp`. If the queue is not empty (determined by checking the length of the `data` array), it assigns the value of `temp` to a variable called `toReturn`. It then removes the first element of the queue using the `shift` function of the array. Finally, it returns the value of `toReturn`.
+<br/>
+
+The `peek` method returns the first element of the queue without removing it. It simply accesses the element at index `0` of the `data` array.
+<br/>
+
+The `empty` method checks if the length of the `data` array is equal to zero. If it is, it returns true, indicating that the queue is empty. Otherwise, it returns false.
+<br/>
+
+In summary, the `MyQueue` class provides methods to manipulate a queue data structure. It allows elements to be added to the end of the queue, removed from the front of the queue, accessed without removal, and checked for emptiness.
+<br/>
+<br/>

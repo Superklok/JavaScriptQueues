@@ -109,3 +109,27 @@ All the calls to `pop` and `top` are valid.
 `};`
 <br/>
 <br/>
+
+## Explanation:
+
+I've defined a class called `MyStack`. This class represents a stack data structure implemented using an array. This class has several methods for manipulating the stack.
+<br/>
+
+The constructor initializes an empty array called `queue`.
+<br/>
+
+The `push(x)` method adds an element `x` to the end of the `queue` array.
+<br/>
+
+The `pop()` method removes and returns the top element of the stack. It does this by iterating through the `queue` array from index `1` to the end. For each iteration, it removes the first element of the `queue` array and adds it to the end. Finally, it removes and returns the first element of the `queue` array.
+<br/>
+
+The `top()` method returns the top element of the stack without removing it. It follows the same process as the `pop()` method, but instead of removing the first element of the `queue` array at the end, it stores it in a variable called `temp`, adds it back to the end of the `queue` array, and then returns the value of `temp`.
+<br/>
+
+The `empty()` method checks if the `queue` array is empty and returns a boolean value indicating whether it is empty or not.
+<br/>
+
+In summary, this class implements a stack data structure using an array. The `push()` method adds elements to the stack, the `pop()` method removes and returns the top element, the `top()` method returns the top element without removing it, and the `empty()` method checks if the stack is empty.
+<br/>
+<br/>

@@ -37,10 +37,7 @@ Explanation: MyStack myStack = new MyStack();
 
 ### Constraints
 
-```JavaScript
-1 <= x <= 9
-```
-
+- `1 <= x <= 9`
 - At most `100` calls will be made to `push`, `pop`, `top`, and `empty`.
 - All the calls to `pop` and `top` are valid.
 
@@ -109,3 +106,22 @@ The `empty()` method checks if the `queue` array is empty and returns a boolean 
 In summary, this class implements a stack data structure using an array. The `push()` method adds elements to the stack, the `pop()` method removes and returns the top element, the `top()` method returns the top element without removing it, and the `empty()` method checks if the stack is empty.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Implement Queue Using Stacks)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Regular Expression Matching)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Queue Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptQueues/blob/main/JavaScriptImplementQueueUsingStacks.md
+[Previous]: https://github.com/Superklok/JavaScriptRecursionAndMemoization/blob/main/JavaScriptRegularExpressionMatching.md
+[More]: https://github.com/Superklok/JavaScriptQueues
+[Return]: https://github.com/Superklok/LearnJavaScript

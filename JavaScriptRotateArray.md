@@ -29,11 +29,9 @@ Explanation: rotate 1 steps to the right: [99,-1,-100,3]
 
 ### Constraints
 
-```JavaScript
-1 <= nums.length <= 10⁵
--2³¹ <= nums[i] <= 2³¹ - 1
-0 <= k <= 10⁵
-```
+- `1 <= nums.length <= 10⁵`
+- `-2³¹ <= nums[i] <= 2³¹ - 1`
+- `0 <= k <= 10⁵`
 
 <br/>
 
@@ -73,3 +71,22 @@ Once the second `for` loop completes, the array `nums` will contain the elements
 It's important to note that this function modifies the original array `nums` in place and does not return a new array.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Coin Change)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Implement Queue Using Stacks)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Queue Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptDynamicProgramming/blob/main/JavaScriptCoinChange.md
+[Previous]: https://github.com/Superklok/JavaScriptQueues/blob/main/JavaScriptImplementQueueUsingStacks.md
+[More]: https://github.com/Superklok/JavaScriptQueues
+[Return]: https://github.com/Superklok/LearnJavaScript

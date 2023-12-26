@@ -37,10 +37,7 @@ myQueue.empty(); // return false
 
 ### Constraints
 
-```JavaScript
-1 <= x <= 9
-```
-
+- `1 <= x <= 9`
 - At most `100` calls will be made to `push`, `pop`, `peek`, and `empty`.
 - All the calls to `pop` and `peek` are valid.
 
@@ -108,3 +105,22 @@ The `empty` method checks if the length of the `data` array is equal to zero. If
 In summary, the `MyQueue` class provides methods to manipulate a queue data structure. It allows elements to be added to the end of the queue, removed from the front of the queue, accessed without removal, and checked for emptiness.
 <br/>
 <br/>
+<br/>
+<br/>
+
+### :next_track_button: [Next (Rotate Array)][Next]
+<br/>
+
+### :previous_track_button: [Previous (Implement Stack Using Queues)][Previous]
+<br/>
+
+### :play_or_pause_button: [More Queue Challenges][More]
+<br/>
+
+### :eject_button: [Return to Course Outline][Return]
+<br/>
+
+[Next]: https://github.com/Superklok/JavaScriptQueues/blob/main/JavaScriptRotateArray.md
+[Previous]: https://github.com/Superklok/JavaScriptQueues/blob/main/JavaScriptImplementStackUsingQueues.md
+[More]: https://github.com/Superklok/JavaScriptQueues
+[Return]: https://github.com/Superklok/LearnJavaScript

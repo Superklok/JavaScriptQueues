@@ -56,7 +56,7 @@ class MyStack {
     }
 
     pop() {
-        for(let i = 1; i < this.queue.length; i++) {
+        for (let i = 1; i < this.queue.length; i++) {
             this.queue.push(this.queue.shift());
         }
 
@@ -64,7 +64,7 @@ class MyStack {
     }
 
     top() {
-        for(let i = 1; i < this.queue.length; i++) {
+        for (let i = 1; i < this.queue.length; i++) {
             this.queue.push(this.queue.shift());
         }
 
